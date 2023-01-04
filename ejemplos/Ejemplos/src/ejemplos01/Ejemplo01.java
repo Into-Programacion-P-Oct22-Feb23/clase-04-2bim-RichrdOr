@@ -20,13 +20,17 @@ public class Ejemplo01 {
         
         String miCiudad = obtenerCiudadMayuscula("Loja");
         System.out.printf("%s\n", miCiudad);
+        System.out.printf("%s\n", obtenerNombre());
+        System.out.println(obtenerNombre());
     }
     
     
-    public String obtenerCiudadMayuscula(String m){
-        String m2 = m.toUpperCase();
+    public static String obtenerCiudadMayuscula(String m){
+        //loja
+        String m2 = m.toUpperCase(); //LOJA
         return m2;
     }
+    
     
     public static void obtenerMultiplicacion(int tabla, int limite){
         

@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package ejemplos01;
-
+import java.
 /**
  *
  * @author reroes
@@ -27,6 +27,16 @@ public class Ejemplo03 {
         return suma;
         // return a + b;
     }
+     public static int obtenerSuma2(){
+         int suma; 
+         Scanner entrada = new Scanner(System.in);
+         System.out.println("Ingrese el nuevo valor de a:");
+         int a = entrada.nextInt();
+         System.out.println("Ingrese el nuevo valor de b:");
+         int b = entrada.nextInt();
+         suma = a + b;
+         return suma;
+     }
     
     
 }
